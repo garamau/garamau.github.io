@@ -1,7 +1,7 @@
 let s1, t1, s2, t2;
 
 function setup() {
-	createCanvas(800, 800)
+	createCanvas(600, 600)
 	gui();
 	noFill()
 }
