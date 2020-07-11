@@ -1,0 +1,36 @@
+body {
+  margin: 40px;
+}
+
+.entete{
+	display: grid;
+  grid-template-columns: 930px;
+	grid-template-rows: 140px; // 140px;
+	text-align: center;
+  font-size: 150%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px; // 310px 310px 310px;
+  grid-gap: 20px 20 px;
+  background-color: #fff;
+  color: #888;
+	//margin: auto;
+	//align: center;
+}
+
+.box {
+  background-color: #fff;
+  color: #222;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.box > img{
+	align-self: stretch;
+	justify-self: stretch;
+	object-fit: cover;
+}
