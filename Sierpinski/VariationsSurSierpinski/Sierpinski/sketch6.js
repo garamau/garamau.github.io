@@ -1,7 +1,7 @@
 let s = [];
 let n = 4;
 let = 0;
-let compteur = 0;
+let compteur = 1;
 let canvas
 
 
