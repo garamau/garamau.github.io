@@ -47,6 +47,7 @@ function motif(n){
 function gui(){
 	s = createSlider(10, r1-20, 25, 1)
 	s.position(width+30, 50)
+	s.style('width', '100px')
 	u = createP("")
 	u.position(width+30, 70)
 }
