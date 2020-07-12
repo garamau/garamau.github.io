@@ -43,6 +43,7 @@ function gui(mg, ec1, ec2){
 	h+=ec1
 	s = createSlider(1, 32, 4, 0.1)
 	s.position(mg, h)
+	s.style('width', '100px')
 }
 
 function miseAJourGui(){
