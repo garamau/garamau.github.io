@@ -2,7 +2,7 @@ let t = 0;
 let s1, s2, t1, t2, s3, s4, t3, t4;
 
 function setup () {
-  createCanvas(800,800)
+  createCanvas(600,600)
   ellipseMode(CENTER)
 	angleMode(DEGREES)
   stroke(0)
@@ -32,24 +32,28 @@ function draw() {
 function gui(){
 	s1 = createSlider(2, 10, 2, 0.1)
 	s1.position(250, height + 40)
+	s1.style('width', '100px')
 	t1 = createP("")
 	t1.position(275, height+5)
 	t1.html("Écartement1 : " + s1.value())
 	
 	s2 = createSlider(1, 5, 0.5, 0.5)
 	s2.position(450, height + 40)
+	s2.style('width', '100px')
 	t2 = createP("")
 	t2.position(475, height+5)
 	t2.html("Épaisseur1 : " + s2.value())
 	
 	s3 = createSlider(2, 10, 2, 0.1)
 	s3.position(250, height + 85)
+	s3.style('width', '100px')
 	t3 = createP("")
 	t3.position(275, height+50)
 	t3.html("Écartement2 : " + s1.value())
 	
 	s4 = createSlider(1, 5, 0.5, 0.5)
 	s4.position(450, height + 85)
+	s4.style('width', '100px')
 	t4 = createP("")
 	t4.position(475, height+50)
 	t4.html("Épaisseur2 : " + s2.value())
