@@ -162,6 +162,7 @@ function gui(){
 	s2 = createSlider(0, 90, 0, 1)
 	s2.parent(g)
 	s2.position(30, h)
+	s2.style('width', '100px')
 	s2.hide()
 	texte2 = createP("0%")
 	texte2.parent(g)
