@@ -21,12 +21,14 @@ function draw() {
 function gui(){
 	s1 = createSlider(5, 50, 5)
 	s1.position(250, height + 40)
+	s1.style('width', '100px')
 	t1 = createP("")
 	t1.position(275, height+5)
 	t1.html("Écartement : " + s1.value())
 	
 	s2 = createSlider(0.5, 15, 0.5)
 	s2.position(450, height + 40)
+	s2.style('width', '100px')
 	t2 = createP("")
 	t2.position(475, height+5)
 	t2.html("Épaisseur : " + s2.value())
