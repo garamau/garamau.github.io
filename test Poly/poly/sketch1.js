@@ -53,6 +53,7 @@ function gui(){
 	t1.position(k, h)
 	h += e2
 	s1.position(k, h)
+	s1.style('width', '100px')
 	
 	h += e1
 	t2 = createP("Taille des pointes")
@@ -62,6 +63,7 @@ function gui(){
 	t2.position(k, h)
 	h += e2
 	s2.position(k, h)
+	s2.style('width', '100px')
 	
 	h += e1
 	t3 = createP("Nombre de couleurs")
@@ -71,6 +73,7 @@ function gui(){
 	t3.position(k, h)
 	h += e2
 	s3.position(k, h)
+	s3.style('width', '100px')
 }
 
 function calculSommets(n){
